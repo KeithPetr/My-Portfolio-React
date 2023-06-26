@@ -4,6 +4,9 @@ import NavbarTwo from "../components/NavbarTwo.jsx";
 import Hero from "../components/Hero.jsx";
 import Skills from '../components/Skills.jsx';
 import Projects from '../components/Projects.jsx';
+import AboutMe from '../components/AboutMe.jsx';
+import Contact from '../components/Contact.jsx';
+import Links from '../components/Links.jsx';
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -20,6 +23,9 @@ function App() {
       <Hero />
       <Skills />
       <Projects />
+      <AboutMe />
+      <Contact />
+      <Links />
     </>
   )
 }

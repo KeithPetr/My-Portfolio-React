@@ -1,3 +1,5 @@
+import {Link} from "react-router-dom"
+
 export default function Projects() {
   return (
     <section className="portfolio" id="portfolio">
@@ -10,7 +12,7 @@ export default function Projects() {
           and a link to a live demo.
         </p>
         <div className="portfolio-grid">
-          <a href="portfolio-item-one.html">
+          <Link to="/project1">
             <div className="portfolio-card">
               <img
                 src="images/Quizzical-App.png"
@@ -22,7 +24,7 @@ export default function Projects() {
                 This app creates random Quizzes using a trivia API and React.
               </p>
             </div>
-          </a>
+          </Link>
 
           <a href="portfolio-item-two.html">
             <div className="portfolio-card">

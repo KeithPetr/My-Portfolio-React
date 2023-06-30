@@ -7,7 +7,7 @@ import Skills from "../components/Skills.jsx";
 import Projects from "../components/Projects.jsx";
 import AboutMe from "../components/AboutMe.jsx";
 import Contact from "../components/Contact.jsx";
-import Links from "../components/Links.jsx";
+import Social from "../components/Social.jsx";
 import ProjectPage from "../components/ProjectPage.jsx";
 
 function Home() {
@@ -18,7 +18,7 @@ function Home() {
       <Projects />
       <AboutMe />
       <Contact />
-      <Links />
+      <Social />
     </>
   );
 }

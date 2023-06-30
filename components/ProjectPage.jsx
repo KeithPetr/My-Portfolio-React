@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import Navbar from "./Navbar";
 import NavbarTwo from "./NavbarTwo";
-import Links from "./Links";
+import Social from "./Social";
 
 export default function ProjectPage({ toggleMenu, isMenuOpen }) {
   return (
@@ -67,7 +67,7 @@ export default function ProjectPage({ toggleMenu, isMenuOpen }) {
           </a>
         </div>
       </section>
-      <Links />
+      <Social />
     </body>
   );
 }

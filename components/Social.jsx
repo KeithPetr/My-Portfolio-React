@@ -1,4 +1,4 @@
-export default function Links() {
+export default function Social() {
   return (
     <section className="links">
       <div className="links-container">

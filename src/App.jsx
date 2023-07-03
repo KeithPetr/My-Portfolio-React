@@ -38,7 +38,7 @@ function App() {
         {isMenuOpen && <NavbarTwo isMenuOpen={isMenuOpen} />}
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/project1" element={<ProjectPage isMenuOpen={isMenuOpen} toggleMenu={toggleMenu}/>} />
+          <Route path="/project/:id" element={<ProjectPage isMenuOpen={isMenuOpen} toggleMenu={toggleMenu}/>} />
         </Routes>
       </BrowserRouter>
     </>

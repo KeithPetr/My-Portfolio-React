@@ -10,7 +10,7 @@ export default function Social() {
             rel="noreferrer"
           >
             <img
-              src="images/linkedin-icon.svg"
+              src="../images/linkedin-icon.svg"
               className="icon linkedin"
               alt="linkedin icon"
             />
@@ -21,7 +21,7 @@ export default function Social() {
             rel="noreferrer"
           >
             <img
-              src="images/github-icon.svg"
+              src="../images/github-icon.svg"
               className="icon github"
               alt="github icon"
             />
@@ -32,7 +32,7 @@ export default function Social() {
             rel="noreferrer"
           >
             <img
-              src="images/twitter-icon.svg"
+              src="../images/twitter-icon.svg"
               className="icon twitter"
               alt="twitter icon"
             />

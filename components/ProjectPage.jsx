@@ -8,7 +8,6 @@ import data from "../src/ProjectInfo"
 export default function ProjectPage({ toggleMenu, isMenuOpen }) {
 
 const params = useParams()
-console.log(params)
 const projectData = data.find(project => project.id === parseInt(params.id))
 
   return (
@@ -40,7 +39,7 @@ const projectData = data.find(project => project.id === parseInt(params.id))
           <p>{projectData.requirements}</p>
           <p className="source-code">The GitHub:</p>
           <a className="source-code-link" href={projectData.githubLink}>
-            https://github.com/KeithPetr/Quizzical-App
+            {projectData.githubLink}
           </a>
           <p className="click-on-image">
             Click on the image below to go to the application

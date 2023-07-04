@@ -4,11 +4,11 @@ export default function ProjectCard({cardData}) {
   return (
     <div className="portfolio-card">
       <img
-        src="images/Quizzical-App.png"
+        src={cardData.src}
         className="screenshot"
         alt="picture of the Quizzical app start page"
       />
-      <h2 className="link-title">{cardData.linkTitle}</h2>
+      <h2 className="link-title">{cardData.title}</h2>
       <p className="project-description">
         {cardData.linkDescription}
       </p>
@@ -18,7 +18,8 @@ export default function ProjectCard({cardData}) {
 
 ProjectCard.propTypes = {
     cardData: PropTypes.shape({
-      linkTitle: PropTypes.string.isRequired,
+      title: PropTypes.string.isRequired,
       linkDescription: PropTypes.string.isRequired,
+      src: PropTypes.string.isRequired,
     }).isRequired,
   };

@@ -8,15 +8,15 @@ export default function Skills() {
         </p>
         <div className="skills-grid">
           <div className="skills-card">
-            <img src="images/layout.png" className="skill-image" />
+            <img src="../images/layout.png" className="skill-image" />
             <h3 className="skill-title">HTML/CSS</h3>
           </div>
           <div className="skills-card">
-            <img src="images/javascript.png" className="skill-image" />
+            <img src="../images/javascript.png" className="skill-image" />
             <h3 className="skill-title">JavaScript</h3>
           </div>
           <div className="skills-card">
-            <img src="images/react.png" className="skill-image" />
+            <img src="../images/react.png" className="skill-image" />
             <h3 className="skill-title">React</h3>
           </div>
         </div>

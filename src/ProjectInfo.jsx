@@ -1,10 +1,15 @@
 import QuizzicalPic from "../images/Quizzical-App.png"
+import TindogPic from "../images/Tindog-screenshot.png"
+import InvoicePic from "../images/Invoice-Creator-App.png"
+import TexterlyPic from "../images/Texterly-App.png"
+import YoutubePic from "../images/Channel-Search-App.png"
+import MoviePic from "../images/Movie-Watchlist-App.png"
 
 const data = [
   {
     id: 1,
     linkDescription: "This app creates random Quizzes using a trivia API and React.",
-    src: "../images/Quizzical-App.png",
+    src: QuizzicalPic,
     title: "Qizzical App",
     subheading: "A React Based Project",
     detailsTitle: "A Scrimba FrontEnd Developer Path Project",
@@ -31,7 +36,7 @@ const data = [
     linkDescription: `This app lets users select the profiles they like and displays
     the results.`,
     src: "../images/Tindog-screenshot.png",
-    title: "Tindog App",
+    title: TindogPic,
     subheading: "A JavaScript Class Based Project",
     detailsTitle: "A Scrimba FrontEnd Developer Path Project",
     details: ` This project recreates smialr functions on the Tinder dating app. It
@@ -62,7 +67,7 @@ const data = [
     id: 3,
     linkDescription: `This app allows the user to create a list of tasks and
     calculate the total price.`,
-    src: "../images/Invoice-Creator-App.png",
+    src: InvoicePic,
     title: "Invoice Creator",
     subheading: "A JavaScript Project",
     detailsTitle: "A Scrimba Bootcamp Project",
@@ -96,7 +101,7 @@ const data = [
     id: 4,
     linkDescription: `This app allows the user to enter in text, analyze it and have
     it returned corrected.`,
-    src: "../images/Texterly-App.png",
+    src: TexterlyPic,
     title: "Texterly AI",
     subheading: "A JavaScript OpenAI API Project",
     detailsTitle: "A Scrimba Bootcamp Project",
@@ -133,7 +138,7 @@ const data = [
     id: 5,
     linkDescription: `This project searches videos within different Youtube channels
     and has a responsive design.`,
-    src: "../images/Channel-Search-App.png",
+    src: YoutubePic,
     title: "Youtube Channel Search",
     subheading: "A JavaScript and Youtube API Project",
     detailsTitle: "A Scrimba Bootcamp Project",
@@ -169,7 +174,7 @@ const data = [
     id: 6,
     linkDescription: `This app allows the user to search through a database of
     movies and add them to a watchlist page.`,
-    src: "../images/Movie-Watchlist-App.png",
+    src: MoviePic,
     title: "Movie Watchlist",
     subheading: "A JavaScript and API Project",
     detailsTitle: "A Scrimba FrontEnd Developer Path Project",

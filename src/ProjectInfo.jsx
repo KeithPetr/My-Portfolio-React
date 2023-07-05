@@ -90,6 +90,47 @@ const data = [
     gif: "../gifs/Invoice-Creator.gif",
     gifAlt: "invoice creator app gif"
   },
+  {
+    id: 4,
+    linkDescription: `This app lets users select the profiles they like and displays
+    the results.`,
+    src: "../images/Texterly-App.png",
+    title: "Texterly AI",
+    subheading: "A JavaScript OpenAI API Project",
+    detailsTitle: "A Scrimba Bootcamp Project",
+    details: `This project involved creating an app that allows the user to edit
+    text. The user could copy and paste or type text directly into the
+    text area. They can then hit the 'Process' button to have the app
+    make spelling, grammar, and punctuation corrections. The app will
+    also tell the user how many characters and words are in the given
+    text. The newly edited text can then be copied to the clipboard and
+    the 'Reset' button can be clicked to empty the text area.`,
+    languages: ["HTML", "CSS", "JavaScript"],
+    requirements: `There were 6 main requirements for this project. The first was I
+    needed to create an array to hold all of the tasks that were entered
+    onto the list. The secodn requirement was to create a button that
+    would add each task to this array. The third was displaying the
+    array data and making sure that it changed as the array was updated.
+    The fourth requirement was to ensure that the same item could not be
+    added twice to the list. The fifth was updating the total amount by
+    keeping track of the price assigned to each task as it was added or
+    removed. The last requirement was to have the 'Send Invoice' button
+    reset the entire list.`,
+    requirementsTwo: `As extra stretch goals, I added an input field so the user could
+    type in what they wanted rather than choose from predetermined
+    options. The final stretch goal was to be able to remove each
+    specific item from the list.`,
+    requirementsThree: `For this project there is no live demo. I was not able to save my
+    API key to GitHub due to security issues. If you wish to test the
+    project out yourself, you can follow the GitHub link and copy or
+    clone the project. Then you can create your own API key with OpenAI
+    and insert it into the project to see it work live. I have included
+    the gif below to demonstrate the functionality.`,
+    githubLink: "https://github.com/KeithPetr/Invoice-Creator",
+    netlify: "https://keith-invoice-creator.netlify.app/",
+    gif: "../gifs/Invoice-Creator.gif",
+    gifAlt: "invoice creator app gif"
+  },
 ];
 
 export default data;

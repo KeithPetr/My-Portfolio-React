@@ -1,3 +1,7 @@
+import LinkedInPic from "../images/linkedin-icon.svg"
+import GithubPic from "../images/github-icon.svg"
+import TwitterPic from "../images/twitter-icon.svg"
+
 export default function Social() {
   return (
     <section className="links">
@@ -10,7 +14,7 @@ export default function Social() {
             rel="noreferrer"
           >
             <img
-              src="../images/linkedin-icon.svg"
+              src={LinkedInPic}
               className="icon linkedin"
               alt="linkedin icon"
             />
@@ -21,7 +25,7 @@ export default function Social() {
             rel="noreferrer"
           >
             <img
-              src="../images/github-icon.svg"
+              src={GithubPic}
               className="icon github"
               alt="github icon"
             />
@@ -32,7 +36,7 @@ export default function Social() {
             rel="noreferrer"
           >
             <img
-              src="../images/twitter-icon.svg"
+              src={TwitterPic}
               className="icon twitter"
               alt="twitter icon"
             />

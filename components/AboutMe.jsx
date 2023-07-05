@@ -1,3 +1,5 @@
+import MePic from "../images/me-fishing.jpg"
+
 export default function AboutMe() {
     return (
         <section className="about-me" id="about-me">
@@ -6,7 +8,7 @@ export default function AboutMe() {
           <div className="about-me-flex">
             <img
               className="about-me-image"
-              src="images/me-fishing.jpg"
+              src={MePic}
               alt="Keith out fishing"
             />
             <div className="about-me-description">

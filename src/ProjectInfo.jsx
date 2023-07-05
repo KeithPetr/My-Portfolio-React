@@ -35,8 +35,8 @@ const data = [
     id: 2,
     linkDescription: `This app lets users select the profiles they like and displays
     the results.`,
-    src: "../images/Tindog-screenshot.png",
-    title: TindogPic,
+    src: TindogPic,
+    title: "Tindog App",
     subheading: "A JavaScript Class Based Project",
     detailsTitle: "A Scrimba FrontEnd Developer Path Project",
     details: ` This project recreates smialr functions on the Tinder dating app. It

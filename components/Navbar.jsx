@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import {HashLink} from "react-router-hash-link"
 
 export default function Navbar({ toggleMenu }) {
   return (
@@ -10,18 +11,18 @@ export default function Navbar({ toggleMenu }) {
         onClick={toggleMenu}
       />
       <ul className="nav-bar">
-        <a href="#skills" className="nav-item">
+        <HashLink to="/#skills" className="nav-item">
           <li>Skills</li>
-        </a>
-        <a href="#portfolio" className="nav-item">
+        </HashLink>
+        <HashLink to="/#portfolio" className="nav-item">
           <li>Portfolio</li>
-        </a>
-        <a href="#about-me" className="nav-item">
+        </HashLink>
+        <HashLink to="/#about-me" className="nav-item">
           <li>About Me</li>
-        </a>
-        <a href="#contact" className="nav-item">
+        </HashLink>
+        <HashLink to="/#contact" className="nav-item">
           <li>Contact</li>
-        </a>
+        </HashLink>
       </ul>
     </header>
   );

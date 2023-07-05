@@ -1,9 +1,15 @@
 import QuizzicalPic from "../images/Quizzical-App.png"
+import QuizzicalGif from "../gifs/Quizzical-Gif.gif"
 import TindogPic from "../images/Tindog-App.png"
+import TindogGif from "../gifs/Tindog.gif"
 import InvoicePic from "../images/Invoice-Creator-App.png"
+import InvoiceGif from "../gifs/Invoice-Creator.gif"
 import TexterlyPic from "../images/Texterly-App.png"
+import TexterlyGif from "../gifs/Texterly-AI-Gif.gif"
 import YoutubePic from "../images/Channel-Search-App.png"
+import YoutubeGif from "../gifs/Channel-Search-Gif.gif"
 import MoviePic from "../images/Movie-Watchlist-App.png"
+import MovieGif from "../gifs/Movie-Watchlist-Gif.gif"
 
 const data = [
   {
@@ -28,8 +34,8 @@ const data = [
                     file.`,
     githubLink: "https://github.com/KeithPetr/Quizzical-App",
     netlify: "https://keith-quizzical-app.netlify.app/",
-    gif: "../gifs/Quizzical-Gif.gif",
-    gifAlt: "quizical app gif"
+    gif: QuizzicalGif,
+    gifAlt: "quizzical app gif"
   },
   {
     id: 2,
@@ -60,7 +66,7 @@ const data = [
     that displays all of the profiles that were liked, if any.`,
     githubLink: "https://github.com/KeithPetr/Tindog",
     netlify: "https://keith-tindog-site.netlify.app/",
-    gif: "../gifs/Tindog.gif",
+    gif: TindogGif,
     gifAlt: "tindog app gif"
   },
   {
@@ -94,7 +100,7 @@ const data = [
     specific item from the list.`,
     githubLink: "https://github.com/KeithPetr/Invoice-Creator",
     netlify: "https://keith-invoice-creator.netlify.app/",
-    gif: "../gifs/Invoice-Creator.gif",
+    gif: InvoiceGif,
     gifAlt: "invoice creator app gif"
   },
   {
@@ -131,7 +137,7 @@ const data = [
     the gif below to demonstrate the functionality.`,
     githubLink: "https://github.com/KeithPetr/Texterly-AI",
     netlify: "https://keith-texterly-ai.netlify.app/",
-    gif: "../gifs/Texterly-AI-Gif.gif",
+    gif: TexterlyGif,
     gifAlt: "texterly app gif"
   },
   {
@@ -167,7 +173,7 @@ const data = [
     requirementsThree: '',
     githubLink: "https://github.com/KeithPetr/Youtube-Channel-Search",
     netlify: "https://keith-channel-search.netlify.app/",
-    gif: "../gifs/Channel-Search-Gif.gif",
+    gif: YoutubeGif,
     gifAlt: "channel search app gif"
   },
   {
@@ -201,7 +207,7 @@ const data = [
     requirementsThree: ``,
     githubLink: "https://github.com/KeithPetr/Movie-Watchlist",
     netlify: "https://keith-movie-watchlist.netlify.app/",
-    gif: "../gifs/Movie-Watchlist-Gif.gif",
+    gif: MovieGif,
     gifAlt: "movie watchlist app gif"
   },
 ];

@@ -5,7 +5,7 @@ export default function Navbar({ toggleMenu }) {
     <header className="header-container">
       <img
         id="hamburger-icon"
-        src="images/hamburger-icon.png"
+        src="../images/hamburger-icon.png"
         alt="hamburger menu icon"
         onClick={toggleMenu}
       />

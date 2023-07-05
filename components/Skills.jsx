@@ -1,3 +1,7 @@
+import LayoutPic from "../images/layout.png"
+import JsPic from "../images/javascript.png"
+import ReactPic from "../images/react.png"
+
 export default function Skills() {
   return (
     <section className="skills" id="skills">
@@ -8,15 +12,15 @@ export default function Skills() {
         </p>
         <div className="skills-grid">
           <div className="skills-card">
-            <img src="../images/layout.png" className="skill-image" />
+            <img src={LayoutPic} className="skill-image" />
             <h3 className="skill-title">HTML/CSS</h3>
           </div>
           <div className="skills-card">
-            <img src="../images/javascript.png" className="skill-image" />
+            <img src={JsPic} className="skill-image" />
             <h3 className="skill-title">JavaScript</h3>
           </div>
           <div className="skills-card">
-            <img src="../images/react.png" className="skill-image" />
+            <img src={ReactPic} className="skill-image" />
             <h3 className="skill-title">React</h3>
           </div>
         </div>

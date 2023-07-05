@@ -4,7 +4,7 @@ const data = [
   {
     id: 1,
     linkDescription: "This app creates random Quizzes using a trivia API and React.",
-    src: {QuizzicalPic},
+    src: "../images/Quizzical-App.png",
     title: "Qizzical App",
     subheading: "A React Based Project",
     detailsTitle: "A Scrimba FrontEnd Developer Path Project",

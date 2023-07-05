@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import QuizzicalPic from "../images/Quizzical-App.png"
 
 export default function ProjectCard({cardData}) {
   return (

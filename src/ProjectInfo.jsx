@@ -1,8 +1,10 @@
+import QuizzicalPic from "../images/Quizzical-App.png"
+
 const data = [
   {
     id: 1,
     linkDescription: "This app creates random Quizzes using a trivia API and React.",
-    src: "../images/Quizzical-App.png",
+    src: {QuizzicalPic},
     title: "Qizzical App",
     subheading: "A React Based Project",
     detailsTitle: "A Scrimba FrontEnd Developer Path Project",

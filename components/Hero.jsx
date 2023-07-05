@@ -1,9 +1,11 @@
+import ProfilePic from "../images/Profile.jpg"
+
 export default function Hero() {
   return (
     <section className="hero">
       <div className="hero-container">
         <img
-          src="images/Profile.jpg"
+          src={ProfilePic}
           className="profile-pic"
           alt="Picutre of Keith Petryshyn"
         />

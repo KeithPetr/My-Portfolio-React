@@ -1,12 +1,13 @@
 import PropTypes from 'prop-types';
 import {HashLink} from "react-router-hash-link"
+import HamburgerIcon from "../images/hamburger-icon.png"
 
 export default function Navbar({ toggleMenu }) {
   return (
     <header className="header-container">
       <img
         id="hamburger-icon"
-        src="../images/hamburger-icon.png"
+        src={HamburgerIcon}
         alt="hamburger menu icon"
         onClick={toggleMenu}
       />

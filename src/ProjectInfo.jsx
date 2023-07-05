@@ -1,5 +1,5 @@
 import QuizzicalPic from "../images/Quizzical-App.png"
-import TindogPic from "../images/Tindog-screenshot.png"
+import TindogPic from "../images/Tindog-App.png"
 import InvoicePic from "../images/Invoice-Creator-App.png"
 import TexterlyPic from "../images/Texterly-App.png"
 import YoutubePic from "../images/Channel-Search-App.png"

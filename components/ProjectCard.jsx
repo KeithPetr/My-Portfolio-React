@@ -6,7 +6,7 @@ export default function ProjectCard({cardData}) {
       <img
         src={cardData.src}
         className="screenshot"
-        alt="picture of the Quizzical app start page"
+        alt={`${cardData.title} Screenshot`}
       />
       <h2 className="link-title">{cardData.title}</h2>
       <p className="project-description">

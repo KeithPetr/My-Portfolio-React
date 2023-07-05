@@ -38,6 +38,7 @@ const projectData = data.find(project => project.id === parseInt(params.id))
           <h3>Project Requirements</h3>
           <p>{projectData.requirements}</p>
           <p>{projectData.requirementsTwo}</p>
+          <p>{projectData.requirementsThree}</p>
           <p className="source-code">The GitHub:</p>
           <a className="source-code-link" href={projectData.githubLink}>
             {projectData.githubLink}

@@ -12,16 +12,16 @@ export default function Navbar({ toggleMenu }) {
         onClick={toggleMenu}
       />
       <ul className="nav-bar">
-        <HashLink to="/#skills" className="nav-item">
+        <HashLink smooth to="/#skills" className="nav-item">
           <li>Skills</li>
         </HashLink>
-        <HashLink to="/#portfolio" className="nav-item">
+        <HashLink smooth to="/#portfolio" className="nav-item">
           <li>Portfolio</li>
         </HashLink>
-        <HashLink to="/#about-me" className="nav-item">
+        <HashLink smooth to="/#about-me" className="nav-item">
           <li>About Me</li>
         </HashLink>
-        <HashLink to="/#contact" className="nav-item">
+        <HashLink smooth to="/#contact" className="nav-item">
           <li>Contact</li>
         </HashLink>
       </ul>

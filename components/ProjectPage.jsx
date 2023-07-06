@@ -1,4 +1,5 @@
 /* eslint-disable react/prop-types */
+import { useEffect } from "react";
 import Navbar from "./Navbar";
 import NavbarTwo from "./NavbarTwo";
 import Social from "./Social";
@@ -9,6 +10,10 @@ export default function ProjectPage({ toggleMenu, isMenuOpen }) {
 
 const params = useParams()
 const projectData = data.find(project => project.id === parseInt(params.id))
+
+useEffect(() => {
+  window.scrollTo(0, 0); // Scroll to the top of the page
+}, []);
 
   return (
     <section className="project-background">

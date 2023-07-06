@@ -1,6 +1,7 @@
 import LayoutPic from "../images/layout.png"
 import JsPic from "../images/javascript.png"
 import ReactPic from "../images/react.png"
+import { HashLink } from "react-router-hash-link";
 
 export default function Skills() {
   return (
@@ -27,9 +28,9 @@ export default function Skills() {
         <p className="skills-bottom-description">
           If you would like to see my work, please click on the button below.
         </p>
-        <a href="#portfolio">
+        <HashLink smooth to="/#portfolio">
           <button className="btn">See some of my recent work</button>
-        </a>
+        </HashLink>
       </div>
     </section>
   );

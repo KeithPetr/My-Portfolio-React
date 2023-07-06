@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import data from "../src/ProjectInfo";
 import ProjectCard from "./ProjectCard";
+import { HashLink } from "react-router-hash-link";
 
 export default function Projects() {
 
@@ -29,11 +30,11 @@ export default function Projects() {
           If you like my work and would like to collaborate, please feel free to
           reach out to me anytime.
         </p>
-        <a href="#contact">
+        <HashLink smooth to="/#contact">
           <button type="button" className="btn">
             Get in touch with me
           </button>
-        </a>
+        </HashLink>
       </div>
     </section>
   );

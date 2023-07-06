@@ -1,3 +1,4 @@
+import { HashLink } from "react-router-hash-link";
 import ProfilePic from "../images/Profile.jpg"
 
 export default function Hero() {
@@ -14,11 +15,11 @@ export default function Hero() {
             Hi, I&rsquo;m <span className="full-name">Keith Petryshyn</span>
           </h1>
           <h2 className="front-end-dev">Front-end Dev</h2>
-          <a href="#skills">
+          <HashLink smooth to="/#skills">
             <button className="btn" type="button">
               Learn about what I do
             </button>
-          </a>
+          </HashLink>
         </div>
       </div>
     </section>

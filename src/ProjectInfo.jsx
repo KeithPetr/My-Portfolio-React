@@ -1,7 +1,7 @@
 import QuizzicalPic from "../images/Quizzical-App.png"
 import QuizzicalGif from "../gifs/Quizzical-Gif.gif"
 import TindogPic from "../images/Tindog-App.png"
-import TindogGif from "../gifs/Tindog.gif"
+import TindogGif from "../gifs/Tindog-React-Gif.gif"
 import InvoicePic from "../images/Invoice-Creator-App.png"
 import InvoiceGif from "../gifs/Invoice-Creator.gif"
 import TexterlyPic from "../images/Texterly-App.png"
@@ -42,30 +42,36 @@ const data = [
     linkDescription: `This app lets users select the profiles they like and displays
     the results.`,
     src: TindogPic,
-    title: "Tindog App",
-    subheading: "A JavaScript Class Based Project",
+    title: "Tindog App (Updated: July 27, 2023)",
+    subheading: "A React Based Project",
     detailsTitle: "A Scrimba FrontEnd Developer Path Project",
-    details: ` This project recreates smialr functions on the Tinder dating app. It
-    allows the user to view multiple files and read a brief bio about
+    details: ` This project recreates similar functions on the Tinder dating app. It
+    allows the user to view multiple profiles and read a brief bio about
     each dog. There are 2 buttons available instead of swiping for
     liking and rejecting each profile. When the users either likes or
     rejects a profile, a stamp is placed on the profile and the next one
-    is loaded onto the screen. After all the profiles have been viewed,
-    a list of all 'liked' profiles appears.`,
-    languages: ["HTML", "CSS", "JavaScript"],
+    is loaded onto the screen. Each liked profile is sent to a list that can be viewed
+    by clicking on the profile icon in the header. Clicking on the paw icon takes the
+    user to the profiles that have not been swiped yet. The chat icon allows the user
+    to see what messages have been sent and the ability to send more.`,
+    languages: ["HTML", "CSS", "JavaScript", "React"],
     requirements: `This project had 3 main requirements. The first one was to follow
-    the Figma design that was provided to create the layout of the app.
-    The second requirement was to use JavaScript classes. the classes
-    were used to create new dogs and store their information and methods
-    that could be applied to each new profile as it was created. The
-    final requirement was to use JavaScript modules. This was needed as
-    the Dog class was stored in one file, each dogs data was stored in
-    another, and all of that information needed to be brought to the
-    index.js file so that functions running the app had the correct
-    information to display. As a stretch goal, I added a page at the end
-    that displays all of the profiles that were liked, if any.`,
-    githubLink: "https://github.com/KeithPetr/Tindog",
-    netlify: "https://keith-tindog-site.netlify.app/",
+    the Figma design that was provided to create the layout of the app. The second 
+    one orginially was to use JavaScript classes to create a dog class with each
+    profile. I have updated the project using the React library to recreate the same
+    type of functionality that the classes provided. The third requirement was to
+    have the ability to add a 'Like' or 'Nope' tag when clicking on the 'X' or heart
+    under each profile.`,
+    requirementsTwo: `As extra stretch goals, I added a component called 'LikedList'
+    that stored all of the profiles that have been given a 'Like' tag. From this page,
+    as another stretch goal, I added a button to click on to send a message to that
+    particular profile. As a thrid stretch goal, once a message was sent, it took the
+    user to a 'Messages' component that listed all of the users that you have started
+    a conversation with. After clicking on a specific profile, the user can add more 
+    chats to the conversation. Finally, the user can see the most recent message for
+    each profile in the 'Messages' component if there is one.`,
+    githubLink: "https://github.com/KeithPetr/Tindog-React",
+    netlify: "https://tindog-react-site.netlify.app/",
     gif: TindogGif,
     gifAlt: "tindog app gif"
   },

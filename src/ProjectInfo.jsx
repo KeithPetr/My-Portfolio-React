@@ -1,42 +1,17 @@
-import QuizzicalPic from "../images/Quizzical-App.png"
-import QuizzicalGif from "../gifs/Quizzical-Gif.gif"
-import TindogPic from "../images/Tindog-App.png"
-import TindogGif from "../gifs/Tindog-React-Gif.gif"
-import InvoicePic from "../images/Invoice-Creator-App.png"
-import InvoiceGif from "../gifs/Invoice-Creator.gif"
-import TexterlyPic from "../images/Texterly-App.png"
-import TexterlyGif from "../gifs/Texterly-AI-Gif.gif"
-import YoutubePic from "../images/Channel-Search-App.png"
-import YoutubeGif from "../gifs/Channel-Search-Gif.gif"
-import MoviePic from "../images/Movie-Watchlist-App.png"
-import MovieGif from "../gifs/Movie-Watchlist-Gif.gif"
+import QuizzicalPic from "../images/Quizzical-App.png";
+import QuizzicalGif from "../gifs/Quizzical-Gif.gif";
+import TindogPic from "../images/Tindog-App.png";
+import TindogGif from "../gifs/Tindog-React-Gif.gif";
+import InvoicePic from "../images/Invoice-Creator-App.png";
+import InvoiceGif from "../gifs/Invoice-Creator.gif";
+import TexterlyPic from "../images/Texterly-App.png";
+import TexterlyGif from "../gifs/Texterly-AI-Gif.gif";
+import YoutubePic from "../images/Channel-Search-App.png";
+import YoutubeGif from "../gifs/Channel-Search-Gif.gif";
+import MoviePic from "../images/Movie-Watchlist-App.png";
+import MovieGif from "../gifs/Movie-Watchlist-Gif.gif";
 
 const data = [
-  {
-    id: 1,
-    linkDescription: "This app creates random Quizzes using a trivia API and React.",
-    src: QuizzicalPic,
-    title: "Qizzical App",
-    subheading: "A React Based Project",
-    detailsTitle: "A Scrimba FrontEnd Developer Path Project",
-    details: `This project accesses the Open Trivia Database to generate random
-                quizzes. The quiz page generates random questions and the
-                associcated answers to them. The user can then select an answer to
-                each question. Finally, the user can click the chekc answer button
-                to see how many questions they correctly answered.`,
-    languages: ["HTML", "CSS", "JavaScript", "JSX", "React"],
-    requirements: `There were 4 main requirements for this project. The first one
-                    required me to create 2 screens, a start page and a quiz page. The
-                    second requirement was to pull at least 5 questions from the API and
-                    display them. The third requirement was to tally all of the correct
-                    answers after the &rsquo;Check Answers&rsquo; button was clicked.
-                    The final requirement was to style the app according to a Figma
-                    file.`,
-    githubLink: "https://github.com/KeithPetr/Quizzical-App",
-    netlify: "https://keith-quizzical-app.netlify.app/",
-    gif: QuizzicalGif,
-    gifAlt: "quizzical app gif"
-  },
   {
     id: 2,
     linkDescription: `This app lets users select the profiles they like and displays
@@ -73,7 +48,33 @@ const data = [
     githubLink: "https://github.com/KeithPetr/Tindog-React",
     netlify: "https://tindog-react-site.netlify.app/",
     gif: TindogGif,
-    gifAlt: "tindog app gif"
+    gifAlt: "tindog app gif",
+  },
+  {
+    id: 1,
+    linkDescription:
+      "This app creates random Quizzes using a trivia API and React.",
+    src: QuizzicalPic,
+    title: "Qizzical App",
+    subheading: "A React Based Project",
+    detailsTitle: "A Scrimba FrontEnd Developer Path Project",
+    details: `This project accesses the Open Trivia Database to generate random
+                quizzes. The quiz page generates random questions and the
+                associcated answers to them. The user can then select an answer to
+                each question. Finally, the user can click the chekc answer button
+                to see how many questions they correctly answered.`,
+    languages: ["HTML", "CSS", "JavaScript", "JSX", "React"],
+    requirements: `There were 4 main requirements for this project. The first one
+                    required me to create 2 screens, a start page and a quiz page. The
+                    second requirement was to pull at least 5 questions from the API and
+                    display them. The third requirement was to tally all of the correct
+                    answers after the &rsquo;Check Answers&rsquo; button was clicked.
+                    The final requirement was to style the app according to a Figma
+                    file.`,
+    githubLink: "https://github.com/KeithPetr/Quizzical-App",
+    netlify: "https://keith-quizzical-app.netlify.app/",
+    gif: QuizzicalGif,
+    gifAlt: "quizzical app gif",
   },
   {
     id: 3,
@@ -107,7 +108,7 @@ const data = [
     githubLink: "https://github.com/KeithPetr/Invoice-Creator",
     netlify: "https://keith-invoice-creator.netlify.app/",
     gif: InvoiceGif,
-    gifAlt: "invoice creator app gif"
+    gifAlt: "invoice creator app gif",
   },
   {
     id: 4,
@@ -144,7 +145,7 @@ const data = [
     githubLink: "https://github.com/KeithPetr/Texterly-AI",
     netlify: "https://keith-texterly-ai.netlify.app/",
     gif: TexterlyGif,
-    gifAlt: "texterly app gif"
+    gifAlt: "texterly app gif",
   },
   {
     id: 5,
@@ -176,11 +177,11 @@ const data = [
     different channels that could then be searched through when entering
     a search query. I also added other details about each video such as
     the published date and a description.`,
-    requirementsThree: '',
+    requirementsThree: "",
     githubLink: "https://github.com/KeithPetr/Youtube-Channel-Search",
     netlify: "https://keith-channel-search.netlify.app/",
     gif: YoutubeGif,
-    gifAlt: "channel search app gif"
+    gifAlt: "channel search app gif",
   },
   {
     id: 6,
@@ -214,7 +215,7 @@ const data = [
     githubLink: "https://github.com/KeithPetr/Movie-Watchlist",
     netlify: "https://keith-movie-watchlist.netlify.app/",
     gif: MovieGif,
-    gifAlt: "movie watchlist app gif"
+    gifAlt: "movie watchlist app gif",
   },
 ];
 

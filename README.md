@@ -46,7 +46,7 @@ changes are applied.
 ## This project includes the following 'stretch goals':
   - Responsive design for mobile devices
   - Creating a 'hamburger' menu for mobile screens
-  - Using React router and params to navigate between project pages
+  - Using React Router and params to navigate between project pages
   - Creating a netlify.toml file to allow browser refresh 
 
 ## Future Goals

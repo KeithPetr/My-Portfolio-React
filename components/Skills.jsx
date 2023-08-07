@@ -1,6 +1,7 @@
 import LayoutPic from "../images/layout.png"
 import JsPic from "../images/javascript.png"
 import ReactPic from "../images/react.png"
+import Firebase from "../images/firebase.png"
 import { HashLink } from "react-router-hash-link";
 
 export default function Skills() {
@@ -23,6 +24,10 @@ export default function Skills() {
           <div className="skills-card">
             <img src={ReactPic} className="skill-image" />
             <h3 className="skill-title">React</h3>
+          </div>
+          <div className="skills-card">
+            <img src={Firebase} className="skill-image" />
+            <h3 className="skill-title">Firebase</h3>
           </div>
         </div>
         <p className="skills-bottom-description">

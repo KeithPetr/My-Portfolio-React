@@ -13,6 +13,47 @@ import MovieGif from "../gifs/Movie-Watchlist-Gif.gif";
 
 const data = [
   {
+    id: 3,
+    linkDescription: `This app allows the user to create invoices with tasks and prices 
+    and then store them in history`,
+    src: InvoicePic,
+    title: "Invoice Creator (Updated August 19, 2023)",
+    subheading: "A JavaScript Project",
+    detailsTitle: "A Scrimba Bootcamp Project",
+    details: `This project involved creating an application where you could enter
+    in a specific task and assign a price to it. Those tasks would then
+    be listed and their totals calculated. It also allows for the
+    removal of any particular item from the list. Clicking the 'Send
+    Invoice' button would then reset the list so you could start over
+    and add new items. I have added many new stretch goals to the project of my own, 
+    including using React to build the app and Firebase to store the data.`,
+    languages: ["HTML", "CSS", "JavaScript", "React", "Firebase"],
+    requirements: `There were 6 main requirements for this project. The first was I
+    needed to create an array to hold all of the tasks that were entered
+    onto the list. I created states within the TaskList component to hold and update this data. 
+    The second requirement was to create a button that would add each task to this array. The third
+    was displaying the array data and making sure that it changed as the array was updated. In 
+    order to do this within React, I used the useEffect hook to watch for changes within the
+    taskList array dependancy. The fourth requirement was to ensure that the same item could not be
+    added twice to the list. The fifth was updating the total amount by keeping track of the price
+     assigned to each task as it was added or removed. The last requirement was to have the
+    'Send Invoice' button reset the entire list. I changed this to store the invoice in history
+    instead.`,
+    requirementsTwo: `There were 4 main stretch goals that I wanted to add to this project.
+    The first, I added an input field so the user could type in what they wanted rather than choose from predetermined
+    options. I also added the same feature for the price, so any amount to 2 decimal places could be entered. 
+    The second stretch goal was to create a Dark Mode toggle button so the user could select the style that best suited
+    their needs. The third stretch goal was to add the ability to view the invoice history of past tasks that have been entered
+    and the dates those were created. The final stretch goal was to use Firebase.  I chose to use a realtime database for this. 
+    I wanted to be able to have a more permanent way to store the data. It was important that the task list remain populated 
+    between screen refreshes if the invoice had not been created yet. As well, I wanted the user to have access to all of
+    their invoice history.`,
+    githubLink: "https://github.com/KeithPetr/Invoice-Creator-React",
+    netlify: "https://invoice-creator-react.netlify.app/",
+    gif: InvoiceGif,
+    gifAlt: "invoice creator app gif",
+  },
+  {
     id: 2,
     linkDescription: `This app lets users select the profiles they like and displays
     the results.`,
@@ -50,6 +91,7 @@ const data = [
     gif: TindogGif,
     gifAlt: "tindog app gif",
   },
+  
   {
     id: 1,
     linkDescription:
@@ -75,40 +117,6 @@ const data = [
     netlify: "https://keith-quizzical-app.netlify.app/",
     gif: QuizzicalGif,
     gifAlt: "quizzical app gif",
-  },
-  {
-    id: 3,
-    linkDescription: `This app allows the user to create a list of tasks and
-    calculate the total price.`,
-    src: InvoicePic,
-    title: "Invoice Creator",
-    subheading: "A JavaScript Project",
-    detailsTitle: "A Scrimba Bootcamp Project",
-    details: `This project involved creating an application where you could enter
-    in a specific task and assign a price to it. Those tasks would then
-    be listed and their totals calculated. It also allows for the
-    removal of any particular item from the list. Clicking the 'Send
-    Invoice' button would then reset the list so you could start over
-    and add new items.`,
-    languages: ["HTML", "CSS", "JavaScript"],
-    requirements: `There were 6 main requirements for this project. The first was I
-    needed to create an array to hold all of the tasks that were entered
-    onto the list. The secodn requirement was to create a button that
-    would add each task to this array. The third was displaying the
-    array data and making sure that it changed as the array was updated.
-    The fourth requirement was to ensure that the same item could not be
-    added twice to the list. The fifth was updating the total amount by
-    keeping track of the price assigned to each task as it was added or
-    removed. The last requirement was to have the 'Send Invoice' button
-    reset the entire list.`,
-    requirementsTwo: `As extra stretch goals, I added an input field so the user could
-    type in what they wanted rather than choose from predetermined
-    options. The final stretch goal was to be able to remove each
-    specific item from the list.`,
-    githubLink: "https://github.com/KeithPetr/Invoice-Creator",
-    netlify: "https://keith-invoice-creator.netlify.app/",
-    gif: InvoiceGif,
-    gifAlt: "invoice creator app gif",
   },
   {
     id: 4,

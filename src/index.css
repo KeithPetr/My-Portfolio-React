@@ -402,7 +402,7 @@ a {
 .project-gif img {
   width: 100%;
   margin-bottom: 1em;
-  max-width: 300px;
+  max-width: 400px;
 }
 
 .source-code {
@@ -417,6 +417,10 @@ a {
   border: none;
   font-size: 1rem;
   margin: 0;
+}
+
+.source-code-link:hover {
+  color: blue;
 }
 
 .tindog-border {

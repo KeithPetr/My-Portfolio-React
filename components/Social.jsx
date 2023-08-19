@@ -9,7 +9,7 @@ export default function Social() {
         <h3 className="find-me">Find me on...</h3>
         <div className="link-icons">
           <a
-            href="https://www.linkedin.com/in/keith-petryshyn-886b5016/"
+            href="https://www.linkedin.com/in/keith-petryshyn/"
             target="_blank"
             rel="noreferrer"
           >

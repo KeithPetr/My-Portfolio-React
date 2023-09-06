@@ -181,7 +181,7 @@ const data = [
     requirement was to let the user know if there were no results
     matching the entered terms. The final requirement was to have the
     thumbnail be a link to the actual video.`,
-    requirementsTwo: `As extra stretch goals, I added a dropdown menu with a slection of
+    requirementsTwo: `As extra stretch goals, I added a dropdown menu with a selection of
     different channels that could then be searched through when entering
     a search query. I also added other details about each video such as
     the published date and a description.`,

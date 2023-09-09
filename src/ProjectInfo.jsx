@@ -1,5 +1,5 @@
-import QuizzicalPic from "../images/Quizzical-App.png";
-import QuizzicalGif from "../gifs/Quizzical-Gif.gif";
+import ReactChatPic from "../images/React-Chat-App.png";
+import ReactChatGif from "../gifs/React-Chat-App.gif";
 import TindogPic from "../images/Tindog-App.png";
 import TindogGif from "../gifs/Tindog-React-Gif.gif";
 import InvoicePic from "../images/Invoice-Creator-App.png";
@@ -12,6 +12,65 @@ import MoviePic from "../images/Movie-Watchlist-App.png";
 import MovieGif from "../gifs/Movie-Watchlist-Gif.gif";
 
 const data = [
+  {
+    id: 1,
+    linkDescription: `This is a chat app that allows users to send messages in a chat room after they have
+      logged in.`,
+    src: ReactChatPic,
+    title: "React Chat App",
+    subheading: "A React and Firebase Project",
+    detailsTitle: "A freeCodeCamp Personal Project",
+    details: `This project uses the Firebase Firestore database to create a realtime
+    chat application. Users are able to sign up to access the app using either their
+    Google account or by entering in an email address and creating a password 
+    manually. After being authenticated, users have access to a chat room where
+    they can send messages to other authenticated users. If a user has been 
+    authenticated using their Google account, each message will display their 
+    avatar and name associated with that account. If the user signs up manually,
+    I have set up a default avatar and their email address will become their 
+    username.`,
+    languages: ["HTML", "CSS", "JavaScript", "React", "Firebase"],
+    requirements: `There were 4 main requirements for this project. The first 
+    requirement was to set up and use the authentication features available from
+    Firebase. The main method for authenticating users was by having them sign
+    in with their Google account. I used the signInWithPopup function from 
+    firebase to access the user's Google account. This function takes in an 
+    instance of the Firebase Authentication service configured for my project 
+    and an instance of the Google authentication provider using the 
+    GoogleAuthProvider class. The second requirement was to create a Firestore 
+    database that would hold the message objects that were created when a user 
+    sent a message. I then used the “addDoc” and “query” functions created by 
+    Firebase to create and query those objects so that they could be fetched and
+    displayed according to creation dates. The third requirement was that I 
+    needed to set up the React components to hold and display the messages sent
+    by each user. I created separate ChatBox, SendMessage, and Message 
+    components that would hold and display the messages. I then used conditional
+    rendering to display the correct information based on the user's 
+    authentication status. The fourth requirement was to access and use the user
+    data that was created when a user signed in. If they did so with a 
+    Google account, their avatar and display name would be used to go 
+    alongside their messages. `,
+    requirementsTwo: `There were 2 stretch goals for this app. I added the ability
+    to create an account manually by signing up with an email address and password.
+    When using this method of authentication, their username would default to the
+    email address they provided and their avatar would default to a React logo 
+    image. I added this feature so that if a user wanted to test out the app they
+    didn’t need to share their Google account information. It also let me sign 
+    in on my mobile device and desktop at the same time to test out the chat in
+    real time. The second stretch goal I had was to create an icon that could be
+    displayed on mobile devices. When the user accesses the Netlify website, they
+    can select the option to 'add to Home Screen' to add an icon for the app to
+    their device. I did this by creating a favicon and including a 
+    “site.webmanifest” file in the root of my project.`,
+    requirementsThree: `One ongoing issue I have is that the messages briefly appear
+    at the top of the chat box before they are correctly sorted to the bottom of the
+    chat box. I will need to review this to determine how I can make the user
+    experience more fluid when it comes to displaying the messages.`,
+    githubLink: "https://github.com/KeithPetr/React-Chat-App",
+    netlify: "https://keiths-react-chat.netlify.app",
+    gif: ReactChatGif,
+    gifAlt: "quizzical app gif",
+  },
   {
     id: 3,
     linkDescription: `This app allows the user to create invoices with tasks and prices 
@@ -60,7 +119,7 @@ const data = [
     src: TindogPic,
     title: "Tindog App (Updated: July 27, 2023)",
     subheading: "A React Based Project",
-    detailsTitle: "A Scrimba FrontEnd Developer Path Project",
+    detailsTitle: "A Scrimba Frontend Developer Path Project",
     details: ` This project recreates similar functions on the Tinder dating app. It
     allows the user to view multiple profiles and read a brief bio about
     each dog. There are 2 buttons available instead of swiping for
@@ -90,33 +149,6 @@ const data = [
     netlify: "https://tindog-react-site.netlify.app/",
     gif: TindogGif,
     gifAlt: "tindog app gif",
-  },
-  
-  {
-    id: 1,
-    linkDescription:
-      "This app creates random Quizzes using a trivia API and React.",
-    src: QuizzicalPic,
-    title: "Qizzical App",
-    subheading: "A React Based Project",
-    detailsTitle: "A Scrimba FrontEnd Developer Path Project",
-    details: `This project accesses the Open Trivia Database to generate random
-                quizzes. The quiz page generates random questions and the
-                associcated answers to them. The user can then select an answer to
-                each question. Finally, the user can click the chekc answer button
-                to see how many questions they correctly answered.`,
-    languages: ["HTML", "CSS", "JavaScript", "JSX", "React"],
-    requirements: `There were 4 main requirements for this project. The first one
-                    required me to create 2 screens, a start page and a quiz page. The
-                    second requirement was to pull at least 5 questions from the API and
-                    display them. The third requirement was to tally all of the correct
-                    answers after the &rsquo;Check Answers&rsquo; button was clicked.
-                    The final requirement was to style the app according to a Figma
-                    file.`,
-    githubLink: "https://github.com/KeithPetr/Quizzical-App",
-    netlify: "https://keith-quizzical-app.netlify.app/",
-    gif: QuizzicalGif,
-    gifAlt: "quizzical app gif",
   },
   {
     id: 4,

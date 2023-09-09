@@ -385,9 +385,6 @@ a {
   padding-top: 1.25em;
 }
 
-.project-gif {
-  border: none;
-}
 
 .click-on-image,
 .project-gif {
@@ -397,12 +394,15 @@ a {
 .project-gif {
   display: block;
   margin: 0 auto;
+  border: none;
 }
 
 .project-gif img {
   width: 100%;
   margin-bottom: 1em;
-  max-width: 400px;
+  max-width: 500px;
+  max-height: 700px;
+  object-fit: contain;
 }
 
 .source-code {

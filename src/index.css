@@ -208,6 +208,12 @@ a {
 .link-title {
   border-top: 1px solid rgba(0, 0, 0, 0.15);
   padding-top: 0.5em;
+  font-size: 1.3rem;
+}
+
+.update {
+  margin: 0;
+  font-size: 1.1rem;
 }
 
 .project-description {

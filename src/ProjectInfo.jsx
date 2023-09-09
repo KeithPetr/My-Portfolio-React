@@ -18,6 +18,7 @@ const data = [
       logged in.`,
     src: ReactChatPic,
     title: "React Chat App",
+    update: "Created: Sept. 9, 2023",
     subheading: "A React and Firebase Project",
     detailsTitle: "A freeCodeCamp Personal Project",
     details: `This project uses the Firebase Firestore database to create a realtime
@@ -76,7 +77,8 @@ const data = [
     linkDescription: `This app allows the user to create invoices with tasks and prices 
     and then store them in history`,
     src: InvoicePic,
-    title: "Invoice Creator (Updated August 19, 2023)",
+    title: "Invoice Creator",
+    update: "Updated: August 19, 2023",
     subheading: "A JavaScript Project",
     detailsTitle: "A Scrimba Bootcamp Project",
     details: `This project involved creating an application where you could enter
@@ -117,7 +119,8 @@ const data = [
     linkDescription: `This app lets users select the profiles they like and displays
     the results.`,
     src: TindogPic,
-    title: "Tindog App (Updated: July 27, 2023)",
+    title: "Tindog App",
+    update: "Updated: July 27, 2023",
     subheading: "A React Based Project",
     detailsTitle: "A Scrimba Frontend Developer Path Project",
     details: ` This project recreates similar functions on the Tinder dating app. It

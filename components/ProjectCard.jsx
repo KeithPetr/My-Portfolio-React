@@ -8,7 +8,8 @@ export default function ProjectCard({cardData}) {
         className="screenshot"
         alt={`${cardData.title} Screenshot`}
       />
-      <h2 className="link-title">{cardData.title}</h2>
+      <h3 className="link-title">{cardData.title}</h3>
+      <h6 className="update">{cardData.update}</h6>
       <p className="project-description">
         {cardData.linkDescription}
       </p>
@@ -21,5 +22,6 @@ ProjectCard.propTypes = {
       title: PropTypes.string.isRequired,
       linkDescription: PropTypes.string.isRequired,
       src: PropTypes.string.isRequired,
+      update: PropTypes.string.isRequired,
     }).isRequired,
   };

@@ -2,6 +2,7 @@ import LayoutPic from "../images/layout.png"
 import JsPic from "../images/javascript.png"
 import ReactPic from "../images/react.png"
 import Firebase from "../images/firebase.png"
+import Tailwind from "../images/tailwind.png"
 import { HashLink } from "react-router-hash-link";
 
 export default function Skills() {
@@ -10,7 +11,7 @@ export default function Skills() {
       <div className="skills-container">
         <h2 className="skills-title-bold">Here&rsquo;s all the stuff I do</h2>
         <p className="skills-title-regular">
-          This is a list of the coding languages I use
+          This is a list of the coding languages and tools I use:
         </p>
         <div className="skills-grid">
           <div className="skills-card">
@@ -28,6 +29,10 @@ export default function Skills() {
           <div className="skills-card">
             <img src={Firebase} className="skill-image" />
             <h3 className="skill-title">Firebase</h3>
+          </div>
+          <div className="skills-card">
+            <img src={Tailwind} className="skill-image" />
+            <h3 className="skill-title">Tailwind</h3>
           </div>
         </div>
         <p className="skills-bottom-description">

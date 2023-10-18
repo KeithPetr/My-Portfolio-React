@@ -1,6 +1,7 @@
 import LinkedInPic from "../images/linkedin-icon.svg"
 import GithubPic from "../images/github-icon.svg"
 import TwitterPic from "../images/twitter-icon.svg"
+import InstagramPic from "../images/instagram-icon.svg"
 
 export default function Social() {
   return (
@@ -39,6 +40,17 @@ export default function Social() {
               src={TwitterPic}
               className="icon twitter"
               alt="twitter icon"
+            />
+          </a>
+          <a
+            href="https://www.instagram.com/keithabcoding/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src={InstagramPic}
+              className="icon instagram"
+              alt="instagram icon"
             />
           </a>
         </div>

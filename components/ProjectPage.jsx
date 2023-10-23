@@ -49,7 +49,7 @@ useEffect(() => {
             {projectData.githubLink}
           </a>
           <p className="click-on-image">
-            Click on the image below to go to the application
+            Click on the gif below to go to the application
           </p>
           <a
             className="project-gif"

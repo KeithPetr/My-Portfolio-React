@@ -8,14 +8,60 @@ import TexterlyPic from "../images/Texterly-App.png";
 import TexterlyGif from "../gifs/Texterly-AI-Gif.gif";
 import YoutubePic from "../images/Channel-Search-App.png";
 import YoutubeGif from "../gifs/Channel-Search-Gif.gif";
-import MoviePic from "../images/Movie-Watchlist-App.png";
-import MovieGif from "../gifs/Movie-Watchlist-Gif.gif";
+import Birdingsnaps from "../images/birdingsnaps.png";
+import BirdingsnapsGif from "../gifs/birdingsnaps.gif"
 
 const data = [
   {
+    id: 6,
+    linkDescription: `My personal photo gallery website`,
+    src: Birdingsnaps,
+    title: "birdingsnaps",
+    update: "Updated: Oct. 23, 2023",
+    subheading: "A React and Firebase Project",
+    detailsTitle: "My Personal Project",
+    details: `This project involved creating a website to showcase all of my 
+    birding and other wildlife photos. I wanted to create a site that people 
+    could search through all of my photos easily and see them at their best 
+    quality. I also wanted users to be able to save favorites and make edits 
+    to adjust the photos to their liking.`,
+    languages: ["HTML", "CSS", "Tailwind", "JavaScript", "React", "Firebase"],
+    requirements: `There were 4 main requirements for this project. The first one 
+    was to find a way to store my photos so that they could be accessed and 
+    searchable. I wanted to include a search input field and letters to 
+    search for birds starting with the same letter. Using Firebase Storage
+    I was able to do this. I used the Firebase Storage methods to search 
+    through the different folders that I named after each bird. I was then 
+    able to use another method to grab the download url for each available 
+    image stored in the folder that was selected by the user.
+    The second requirement was that I wanted the user to be able to save favorites.
+    I included an icon that could be clicked on each image to save it to a favorites
+    section. This section was only accessible if the user signed in via their Google
+    account. What this allowed me to do was use the user id from the Google sign in 
+    to create a unique folder name. I then saved these images in a Firebase realtime 
+    database so they could be removed and saved almost instantly.
+     `,
+    requirementsTwo: `The third requirement I had was allowing the user to edit 
+    favorites. I used HTML canvas to load an image and offered the user the abiltiy
+    to change contrast, brightness, grayscale, and saturation. Currently, the user 
+    can only save these edited images by right clicking when viewing the website on
+    a desktop.
+    `,
+    requirementsThree: `The fourth requirement was displaying the images in a way that
+    showed of their best quality and allowed the user to navigate through them easily.
+    I did this by creating a component that would appear when an image was clicked on.
+    This component shows the image in a larger size, grays out and disables the site
+    behind it, and it offers arrow buttons to navigate through the collection.
+    `,
+    githubLink: "https://github.com/KeithPetr/Birding-Snaps/",
+    netlify: "http://birdingsnaps.netlify.app/",
+    gif: BirdingsnapsGif,
+    gifAlt: "birdingsnaps site gif",
+  },
+  {
     id: 1,
-    linkDescription: `This is a chat app that allows users to send messages in a chat room after they have
-      logged in.`,
+    linkDescription: `This is a chat app that allows users to send messages in a chat
+    room after they have logged in.`,
     src: ReactChatPic,
     title: "React Chat App",
     update: "Created: Sept. 9, 2023",
@@ -78,7 +124,7 @@ const data = [
     and then store them in history`,
     src: InvoicePic,
     title: "Invoice Creator",
-    update: "Updated: August 19, 2023",
+    update: "Updated: Aug. 19, 2023",
     subheading: "A JavaScript Project",
     detailsTitle: "A Scrimba Bootcamp Project",
     details: `This project involved creating an application where you could enter
@@ -225,40 +271,6 @@ const data = [
     netlify: "https://keith-channel-search.netlify.app/",
     gif: YoutubeGif,
     gifAlt: "channel search app gif",
-  },
-  {
-    id: 6,
-    linkDescription: `This app allows the user to search through a database of
-    movies and add them to a watchlist page.`,
-    src: MoviePic,
-    title: "Movie Watchlist",
-    subheading: "A JavaScript and API Project",
-    detailsTitle: "A Scrimba FrontEnd Developer Path Project",
-    details: `This project involved using the OMDB API to access information about
-    movies. The goal of the project was to allow the user to type in a
-    search query and find movies related to that query. From the
-    results, the user could select any that they wished to save to a
-    separate 'watchlist' page. Whenever the user returned to the
-    watchlist page, they should be able to view all of the movies that
-    have been saved. If they no longer wanted a movie on their list,
-    they also have the option to remove it.`,
-    languages: ["HTML", "CSS", "JavaScript"],
-    requirements: ` There were 4 main requirements for this project. The first was there
-    needed to be two separate pages. This included an 'index.html' page
-    and a 'watchlist.html' page. The second requirement was to have the
-    'index.html' page be a search page. This search page would call to
-    the OMDB API with the search queries entered and display the movie
-    details in the results. The third requirement was to have an 'add to
-    watchlist' button. This button will save that movie data to local
-    storage so it could be accessed on the 'watchlist' page. The final
-    requirement was to have the 'watchlist.html' page load the data from
-    local storage and display the saved movies.`,
-    requirementsTwo: ``,
-    requirementsThree: ``,
-    githubLink: "https://github.com/KeithPetr/Movie-Watchlist",
-    netlify: "https://keith-movie-watchlist.netlify.app/",
-    gif: MovieGif,
-    gifAlt: "movie watchlist app gif",
   },
 ];
 

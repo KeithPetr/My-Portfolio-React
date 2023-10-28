@@ -16,7 +16,7 @@ const data = [
     id: 6,
     linkDescription: `My personal photo gallery website`,
     src: Birdingsnaps,
-    title: "birdingsnaps",
+    title: "Birdingsnaps",
     update: "Updated: Oct. 23, 2023",
     subheading: "A React and Firebase Project",
     detailsTitle: "My Personal Project",
